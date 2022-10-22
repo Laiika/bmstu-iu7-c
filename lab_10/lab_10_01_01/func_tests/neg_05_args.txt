@@ -1,0 +1,1 @@
+app.exe neg_05_in.txt out.tmp find

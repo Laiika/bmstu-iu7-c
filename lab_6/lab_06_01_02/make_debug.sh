@@ -1,0 +1,10 @@
+#!/bin/bash
+
+gcc -std=c99 -Wall -Wextra -Wpedantic -Werror -O0 -g3 --coverage -c print_items_array.c
+gcc -std=c99 -Wall -Wextra -Wpedantic -Werror -O0 -g3 --coverage -c print_items_with_prefix.c
+gcc -std=c99 -Wall -Wextra -Wpedantic -Werror -O0 -g3 --coverage -c read_items.c
+gcc -std=c99 -Wall -Wextra -Wpedantic -Werror -O0 -g3 --coverage -c sort_items_array.c
+gcc -std=c99 -Wall -Wextra -Wpedantic -Werror -O0 -g3 --coverage -c main.c
+gcc -o app.exe main.o print_items_array.o print_items_with_prefix.o read_items.o sort_items_array.o -lgcov
+
+echo "Compile"

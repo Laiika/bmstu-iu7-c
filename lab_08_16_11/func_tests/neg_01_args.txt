@@ -1,0 +1,1 @@
+app.exe e neg_01_in.txt out.tmp

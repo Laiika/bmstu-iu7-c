@@ -1,0 +1,1 @@
+app.exe a pos_01_1_in.txt pos_01_2_in.txt out.tmp
